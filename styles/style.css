@@ -67,7 +67,6 @@ ol {
   justify-content: space-between;
   flex-direction: row;
   align-items: start;
-  margin-top: 16px;
 }
 
 .content__list {
@@ -90,13 +89,13 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
+  margin-bottom: 16px;
 }
 
 .result__video {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+  width: 711px;
+  height: 386px;
+  object-fit: cover;
 }
 
 .title {
